@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * 消息队列配置
  * Created by macro on 2018/9/14.
  */
-@Configuration
+//@Configuration
 public class RabbitMqConfig {
 
     /**
@@ -49,8 +49,8 @@ public class RabbitMqConfig {
     public Queue orderTtlQueue() {
         return QueueBuilder
                 .durable(QueueEnum.QUEUE_TTL_ORDER_CANCEL.getName())
-                .withArgument("x-dead-letter-exchange", QueueEnum.QUEUE_ORDER_CANCEL.getExchange())//到期后转发的交换机
-                .withArgument("x-dead-letter-routing-key", QueueEnum.QUEUE_ORDER_CANCEL.getRouteKey())//到期后转发的路由键
+                .withArgument("x-dead-letter-exchange", QueueEnum.QUEUE_ORDER_CANCEL.getExchange())
+                .withArgument("x-dead-letter-routing-key", QueueEnum.QUEUE_ORDER_CANCEL.getRouteKey())  //到期后转发的交换机, 到期后转发的路由键
                 .build();
     }
 
