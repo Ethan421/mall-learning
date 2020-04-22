@@ -35,6 +35,7 @@ import java.util.List;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled=true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
     @Autowired
     private UmsAdminService adminService;
     @Autowired
