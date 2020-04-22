@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MallTinyApplication {
 
     public static void main(String[] args) {
+        //Authorize --> login --> bearer <token>
         LoggerFactory.getLogger(MallTinyApplication.class).info("http://localhost:8080/swagger-ui.html");
         SpringApplication.run(MallTinyApplication.class, args);
     }
