@@ -1,6 +1,6 @@
 package com.macro.mall.tiny.service.impl;
 
-import com.macro.mall.tiny.dao.EsProductDao;
+import com.macro.mall.tiny.mapper.EsProductMapper;
 import com.macro.mall.tiny.nosql.elasticsearch.document.EsProduct;
 import com.macro.mall.tiny.nosql.elasticsearch.repository.EsProductRepository;
 import com.macro.mall.tiny.service.EsProductService;
@@ -26,7 +26,7 @@ import java.util.List;
 public class EsProductServiceImpl implements EsProductService {
     private static final Logger LOGGER = LoggerFactory.getLogger(EsProductServiceImpl.class);
     @Autowired
-    private EsProductDao productDao;
+    private EsProductMapper productDao;
     @Autowired
     private EsProductRepository productRepository;
 

@@ -159,9 +159,9 @@ mybatis:
         <!--指定生成model的路径-->
         <javaModelGenerator targetPackage="com.macro.mall.tiny.mbg.model" targetProject="mall-tiny-01\src\main\java"/>
         <!--指定生成mapper.xml的路径-->
-        <sqlMapGenerator targetPackage="com.macro.mall.tiny.mbg.mapper" targetProject="mall-tiny-01\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.macro.mall.tiny.mapper" targetProject="mall-tiny-01\src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.macro.mall.tiny.mbg.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.macro.mall.tiny.mapper"
                              targetProject="mall-tiny-01\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="pms_brand">
@@ -229,7 +229,7 @@ import org.springframework.context.annotation.Configuration;
  * Created by macro on 2019/4/8.
  */
 @Configuration
-@MapperScan("com.macro.mall.tiny.mbg.mapper")
+@MapperScan("com.macro.mall.tiny.mapper")
 public class MyBatisConfig {
 }
 
@@ -367,7 +367,7 @@ public interface PmsBrandService {
 package com.macro.mall.tiny.service.impl;
 
 import com.github.pagehelper.PageHelper;
-import com.macro.mall.tiny.mbg.mapper.PmsBrandMapper;
+import com.macro.mall.tiny.mapper.PmsBrandMapper;
 import com.macro.mall.tiny.mbg.model.PmsBrand;
 import com.macro.mall.tiny.mbg.model.PmsBrandExample;
 import com.macro.mall.tiny.service.PmsBrandService;

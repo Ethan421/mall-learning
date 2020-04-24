@@ -21,7 +21,7 @@ mall项目全套学习教程连载中，[关注公众号](#公众号)第一时�
 ```java
 nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML.
 The XML location is 'file [D:\developer\github\mall-learning\mall-tiny-02\target\classes\com\macro\mall\tiny\mbg\mapper\PmsBrandMapper.xml]'.
-Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.macro.mall.tiny.mbg.mapper.PmsBrandMapper.BaseResultMap
+Cause: java.lang.IllegalArgumentException: Result Maps collection already contains value for com.macro.mall.tiny.mapper.PmsBrandMapper.BaseResultMap
 ```
 **表明了PmsBrandMapper.xml文件解析错误，BaseResultMap重复定义。**
 

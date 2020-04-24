@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.service.impl;
 
 import com.macro.mall.tiny.dto.UmsPermissionNode;
-import com.macro.mall.tiny.mbg.mapper.UmsPermissionMapper;
+import com.macro.mall.tiny.mapper.UmsPermissionMapper;
 import com.macro.mall.tiny.mbg.model.UmsPermission;
 import com.macro.mall.tiny.mbg.model.UmsPermissionExample;
 import com.macro.mall.tiny.service.UmsPermissionService;

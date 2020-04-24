@@ -3,7 +3,7 @@ package com.macro.mall.tiny.service.impl;
 import com.macro.mall.tiny.common.utils.JwtTokenUtil;
 import com.macro.mall.tiny.dao.UmsAdminRoleRelationDao;
 import com.macro.mall.tiny.dto.UmsAdminLoginParam;
-import com.macro.mall.tiny.mbg.mapper.UmsAdminMapper;
+import com.macro.mall.tiny.mapper.UmsAdminMapper;
 import com.macro.mall.tiny.mbg.model.UmsAdmin;
 import com.macro.mall.tiny.mbg.model.UmsAdminExample;
 import com.macro.mall.tiny.mbg.model.UmsPermission;

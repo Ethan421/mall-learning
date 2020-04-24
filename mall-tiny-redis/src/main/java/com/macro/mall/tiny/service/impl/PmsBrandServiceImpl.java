@@ -2,7 +2,7 @@ package com.macro.mall.tiny.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.macro.mall.tiny.config.RedisConfig;
-import com.macro.mall.tiny.mbg.mapper.PmsBrandMapper;
+import com.macro.mall.tiny.mapper.PmsBrandMapper;
 import com.macro.mall.tiny.mbg.model.PmsBrand;
 import com.macro.mall.tiny.mbg.model.PmsBrandExample;
 import com.macro.mall.tiny.service.PmsBrandService;

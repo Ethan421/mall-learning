@@ -1,4 +1,4 @@
-package com.macro.mall.tiny.mbg.mapper;
+package com.macro.mall.tiny.mapper;
 
 import com.macro.mall.tiny.mbg.model.UmsAdminPermissionRelation;
 import com.macro.mall.tiny.mbg.model.UmsAdminPermissionRelationExample;

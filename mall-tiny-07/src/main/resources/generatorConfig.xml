@@ -31,9 +31,9 @@
         <!--指定生成model的路径-->
         <javaModelGenerator targetPackage="com.macro.mall.tiny.mbg.model" targetProject="mall-tiny-07\src\main\java"/>
         <!--指定生成mapper.xml的路径-->
-        <sqlMapGenerator targetPackage="com.macro.mall.tiny.mbg.mapper" targetProject="mall-tiny-07\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.macro.mall.tiny.mapper" targetProject="mall-tiny-07\src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.macro.mall.tiny.mbg.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.macro.mall.tiny.mapper"
                              targetProject="mall-tiny-07\src\main\java"/>
         <!--生成全部表tableName设为%-->
         <table tableName="pms_brand">
