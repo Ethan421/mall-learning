@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsMemberRuleSetting;
-import com.macro.mall.tiny.mbg.model.UmsMemberRuleSettingExample;
+import com.macro.mall.tiny.model.UmsMemberRuleSetting;
+import com.macro.mall.tiny.model.UmsMemberRuleSettingExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

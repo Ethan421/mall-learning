@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.CmsSubjectComment;
-import com.macro.mall.tiny.mbg.model.CmsSubjectCommentExample;
+import com.macro.mall.tiny.model.CmsSubjectComment;
+import com.macro.mall.tiny.model.CmsSubjectCommentExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

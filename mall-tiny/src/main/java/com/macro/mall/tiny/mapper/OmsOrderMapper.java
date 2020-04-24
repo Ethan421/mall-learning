@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.OmsOrder;
-import com.macro.mall.tiny.mbg.model.OmsOrderExample;
+import com.macro.mall.tiny.model.OmsOrder;
+import com.macro.mall.tiny.model.OmsOrderExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -2,8 +2,8 @@ package com.macro.mall.tiny.controller;
 
 import com.macro.mall.tiny.common.api.CommonResult;
 import com.macro.mall.tiny.dto.UmsAdminLoginParam;
-import com.macro.mall.tiny.mbg.model.UmsAdmin;
-import com.macro.mall.tiny.mbg.model.UmsPermission;
+import com.macro.mall.tiny.model.UmsAdmin;
+import com.macro.mall.tiny.model.UmsPermission;
 import com.macro.mall.tiny.service.UmsAdminService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

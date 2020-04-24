@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.SmsFlashPromotionSession;
-import com.macro.mall.tiny.mbg.model.SmsFlashPromotionSessionExample;
+import com.macro.mall.tiny.model.SmsFlashPromotionSession;
+import com.macro.mall.tiny.model.SmsFlashPromotionSessionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

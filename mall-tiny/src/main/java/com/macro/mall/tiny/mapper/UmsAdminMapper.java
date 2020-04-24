@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsAdmin;
-import com.macro.mall.tiny.mbg.model.UmsAdminExample;
+import com.macro.mall.tiny.model.UmsAdmin;
+import com.macro.mall.tiny.model.UmsAdminExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

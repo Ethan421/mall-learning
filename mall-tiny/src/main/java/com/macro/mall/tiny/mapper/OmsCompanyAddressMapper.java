@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.OmsCompanyAddress;
-import com.macro.mall.tiny.mbg.model.OmsCompanyAddressExample;
+import com.macro.mall.tiny.model.OmsCompanyAddress;
+import com.macro.mall.tiny.model.OmsCompanyAddressExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

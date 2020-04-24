@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsProductVertifyRecord;
-import com.macro.mall.tiny.mbg.model.PmsProductVertifyRecordExample;
+import com.macro.mall.tiny.model.PmsProductVertifyRecord;
+import com.macro.mall.tiny.model.PmsProductVertifyRecordExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

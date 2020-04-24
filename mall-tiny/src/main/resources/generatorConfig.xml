@@ -31,14 +31,14 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
         <!--指定生成model的路径-->
-        <javaModelGenerator targetPackage="com.macro.mall.tiny.mbg.model" targetProject="mall-tiny\src\main\java"/>
+        <javaModelGenerator targetPackage="com.macro.mall.tiny.model" targetProject="mall-tiny\src\main\java"/>
         <!--指定生成mapper.xml的路径-->
         <sqlMapGenerator targetPackage="com.macro.mall.tiny.mapper" targetProject="mall-tiny\src\main\resources"/>
         <!--指定生成mapper接口的的路径-->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.macro.mall.tiny.mapper"
                              targetProject="mall-tiny\src\main\java"/>
         <!--生成全部表tableName设为%-->
-        <table tableName="%">
+        <table tableName="%" enableCountByExample="false" enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false">
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>

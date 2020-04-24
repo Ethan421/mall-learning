@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.CmsPrefrenceAreaProductRelation;
-import com.macro.mall.tiny.mbg.model.CmsPrefrenceAreaProductRelationExample;
+import com.macro.mall.tiny.model.CmsPrefrenceAreaProductRelation;
+import com.macro.mall.tiny.model.CmsPrefrenceAreaProductRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

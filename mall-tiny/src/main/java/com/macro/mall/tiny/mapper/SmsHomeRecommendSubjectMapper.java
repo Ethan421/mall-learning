@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.SmsHomeRecommendSubject;
-import com.macro.mall.tiny.mbg.model.SmsHomeRecommendSubjectExample;
+import com.macro.mall.tiny.model.SmsHomeRecommendSubject;
+import com.macro.mall.tiny.model.SmsHomeRecommendSubjectExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

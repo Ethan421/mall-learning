@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.SmsHomeAdvertise;
-import com.macro.mall.tiny.mbg.model.SmsHomeAdvertiseExample;
+import com.macro.mall.tiny.model.SmsHomeAdvertise;
+import com.macro.mall.tiny.model.SmsHomeAdvertiseExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

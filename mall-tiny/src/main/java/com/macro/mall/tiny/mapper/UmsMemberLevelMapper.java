@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsMemberLevel;
-import com.macro.mall.tiny.mbg.model.UmsMemberLevelExample;
+import com.macro.mall.tiny.model.UmsMemberLevel;
+import com.macro.mall.tiny.model.UmsMemberLevelExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsMemberProductCategoryRelation;
-import com.macro.mall.tiny.mbg.model.UmsMemberProductCategoryRelationExample;
+import com.macro.mall.tiny.model.UmsMemberProductCategoryRelation;
+import com.macro.mall.tiny.model.UmsMemberProductCategoryRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

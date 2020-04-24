@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsProductLadder;
-import com.macro.mall.tiny.mbg.model.PmsProductLadderExample;
+import com.macro.mall.tiny.model.PmsProductLadder;
+import com.macro.mall.tiny.model.PmsProductLadderExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

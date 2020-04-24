@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsRole;
-import com.macro.mall.tiny.mbg.model.UmsRoleExample;
+import com.macro.mall.tiny.model.UmsRole;
+import com.macro.mall.tiny.model.UmsRoleExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsFeightTemplate;
-import com.macro.mall.tiny.mbg.model.PmsFeightTemplateExample;
+import com.macro.mall.tiny.model.PmsFeightTemplate;
+import com.macro.mall.tiny.model.PmsFeightTemplateExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

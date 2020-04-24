@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsRolePermissionRelation;
-import com.macro.mall.tiny.mbg.model.UmsRolePermissionRelationExample;
+import com.macro.mall.tiny.model.UmsRolePermissionRelation;
+import com.macro.mall.tiny.model.UmsRolePermissionRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

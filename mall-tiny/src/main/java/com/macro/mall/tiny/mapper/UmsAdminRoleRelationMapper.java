@@ -1,10 +1,10 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsAdminRoleRelation;
-import com.macro.mall.tiny.mbg.model.UmsAdminRoleRelationExample;
+import com.macro.mall.tiny.model.UmsAdminRoleRelation;
+import com.macro.mall.tiny.model.UmsAdminRoleRelationExample;
 import java.util.List;
 
-import com.macro.mall.tiny.mbg.model.UmsPermission;
+import com.macro.mall.tiny.model.UmsPermission;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

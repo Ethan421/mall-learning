@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsMemberTag;
-import com.macro.mall.tiny.mbg.model.UmsMemberTagExample;
+import com.macro.mall.tiny.model.UmsMemberTag;
+import com.macro.mall.tiny.model.UmsMemberTagExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

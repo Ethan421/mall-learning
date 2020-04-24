@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.service;
 
 
-import com.macro.mall.tiny.mbg.model.PmsBrand;
+import com.macro.mall.tiny.model.PmsBrand;
 
 import java.util.List;
 

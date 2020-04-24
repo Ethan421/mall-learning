@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.dto;
 
-import com.macro.mall.tiny.mbg.model.UmsAdmin;
-import com.macro.mall.tiny.mbg.model.UmsPermission;
+import com.macro.mall.tiny.model.UmsAdmin;
+import com.macro.mall.tiny.model.UmsPermission;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

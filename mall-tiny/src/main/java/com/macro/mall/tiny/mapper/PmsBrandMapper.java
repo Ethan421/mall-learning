@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsBrand;
-import com.macro.mall.tiny.mbg.model.PmsBrandExample;
+import com.macro.mall.tiny.model.PmsBrand;
+import com.macro.mall.tiny.model.PmsBrandExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

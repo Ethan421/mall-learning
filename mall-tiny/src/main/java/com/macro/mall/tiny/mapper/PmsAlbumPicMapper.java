@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsAlbumPic;
-import com.macro.mall.tiny.mbg.model.PmsAlbumPicExample;
+import com.macro.mall.tiny.model.PmsAlbumPic;
+import com.macro.mall.tiny.model.PmsAlbumPicExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

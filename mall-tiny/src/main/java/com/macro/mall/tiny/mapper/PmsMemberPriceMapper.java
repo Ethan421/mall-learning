@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsMemberPrice;
-import com.macro.mall.tiny.mbg.model.PmsMemberPriceExample;
+import com.macro.mall.tiny.model.PmsMemberPrice;
+import com.macro.mall.tiny.model.PmsMemberPriceExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

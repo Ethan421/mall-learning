@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.PmsProductCategoryAttributeRelation;
-import com.macro.mall.tiny.mbg.model.PmsProductCategoryAttributeRelationExample;
+import com.macro.mall.tiny.model.PmsProductCategoryAttributeRelation;
+import com.macro.mall.tiny.model.PmsProductCategoryAttributeRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

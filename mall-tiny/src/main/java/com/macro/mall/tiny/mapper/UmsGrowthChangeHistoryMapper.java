@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.UmsGrowthChangeHistory;
-import com.macro.mall.tiny.mbg.model.UmsGrowthChangeHistoryExample;
+import com.macro.mall.tiny.model.UmsGrowthChangeHistory;
+import com.macro.mall.tiny.model.UmsGrowthChangeHistoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

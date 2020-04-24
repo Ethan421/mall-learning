@@ -1,7 +1,7 @@
 package com.macro.mall.tiny.mapper;
 
-import com.macro.mall.tiny.mbg.model.CmsSubjectProductRelation;
-import com.macro.mall.tiny.mbg.model.CmsSubjectProductRelationExample;
+import com.macro.mall.tiny.model.CmsSubjectProductRelation;
+import com.macro.mall.tiny.model.CmsSubjectProductRelationExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
