@@ -33,7 +33,7 @@ import java.util.List;
  */
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled=true)
+@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
@@ -67,7 +67,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .antMatchers("/admin/login", "/admin/register")// 对登录注册要允许匿名访问
                 .permitAll()
-                .antMatchers("/esProduct/**","/member/readHistory/**","/order/**","/aliyun/oss/**","/sso/**")// 测试时放开
+                .antMatchers("/esProduct/**", "/member/readHistory/**", "/order/**", "/aliyun/oss/**", "/sso/**")// 测试时放开
                 .permitAll()
                 .anyRequest()// 除上面外的所有请求全部需要鉴权认证
                 .authenticated();
@@ -100,14 +100,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             UmsAdmin admin = adminService.getAdminByUsername(username);
             if (admin != null) {
                 List<UmsPermission> permissionList = adminService.getPermissionList(admin.getId());
-                return new AdminUserDetails(admin,permissionList);
+                return new AdminUserDetails(admin, permissionList);
             }
             throw new UsernameNotFoundException("用户名或密码错误");
         };
     }
 
     @Bean
-    public JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter(){
+    public JwtAuthenticationTokenFilter jwtAuthenticationTokenFilter() {
         return new JwtAuthenticationTokenFilter();
     }
 
