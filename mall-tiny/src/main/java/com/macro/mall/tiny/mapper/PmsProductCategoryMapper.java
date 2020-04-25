@@ -4,8 +4,11 @@ import com.macro.mall.tiny.model.PmsProductCategory;
 import com.macro.mall.tiny.model.PmsProductCategoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface PmsProductCategoryMapper {
+
     long countByExample(PmsProductCategoryExample example);
 
     int deleteByExample(PmsProductCategoryExample example);
@@ -33,4 +36,6 @@ public interface PmsProductCategoryMapper {
     int updateByPrimaryKeyWithBLOBs(PmsProductCategory record);
 
     int updateByPrimaryKey(PmsProductCategory record);
+
+    List<PmsProductCategory> selectAll();
 }
