@@ -1,15 +1,13 @@
 package com.macro.mall.tiny.controller;
 
 import com.macro.mall.tiny.common.api.CommonResult;
-import com.macro.mall.tiny.model.PmsBrand;
 import com.macro.mall.tiny.model.PmsProductCategory;
-import com.macro.mall.tiny.service.PmsCategoryService;
+import com.macro.mall.tiny.service.PmsProductCategoryService;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,14 +18,14 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/product/category")
-public class PmsCategoryController {
+public class PmsProductCategoryController {
 
-    private PmsCategoryService categoryService;
+    private PmsProductCategoryService categoryService;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
 
     @Autowired
-    public void setCategoryService(PmsCategoryService categoryService) {
+    public void setCategoryService(PmsProductCategoryService categoryService) {
         this.categoryService = categoryService;
     }
 

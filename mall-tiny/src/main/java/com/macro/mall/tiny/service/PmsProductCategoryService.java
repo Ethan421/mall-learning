@@ -10,7 +10,7 @@ import java.util.List;
  * @date 2020/4/25 - 17:36
  */
 @Service
-public interface PmsCategoryService {
+public interface PmsProductCategoryService {
 
     List<PmsProductCategory> listAllCategory();
 
