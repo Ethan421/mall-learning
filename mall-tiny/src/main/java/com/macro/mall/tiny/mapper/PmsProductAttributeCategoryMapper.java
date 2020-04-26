@@ -4,8 +4,11 @@ import com.macro.mall.tiny.model.PmsProductAttributeCategory;
 import com.macro.mall.tiny.model.PmsProductAttributeCategoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface PmsProductAttributeCategoryMapper {
+
     long countByExample(PmsProductAttributeCategoryExample example);
 
     int deleteByExample(PmsProductAttributeCategoryExample example);
