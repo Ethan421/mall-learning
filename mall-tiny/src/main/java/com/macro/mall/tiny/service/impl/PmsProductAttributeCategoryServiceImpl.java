@@ -19,14 +19,21 @@ public class PmsProductAttributeCategoryServiceImpl implements PmsProductAttribu
 
     private PmsProductAttributeCategoryMapper categoryMapper;
 
+    private PagingUtil pagingUtil;
+
     @Autowired
     public void setCategoryMapper(PmsProductAttributeCategoryMapper categoryMapper) {
         this.categoryMapper = categoryMapper;
     }
 
+    @Autowired
+    public void setPagingUtil(PagingUtil pagingUtil) {
+        this.pagingUtil = pagingUtil;
+    }
+
     @Override
     public List<PmsProductAttributeCategory> listAllCategory(Integer page, Integer size) {
-        Integer start = PagingUtil.getStartIndex(page, size);
+        Integer start = pagingUtil.getStartIndex(page, size);
         return categoryMapper.selectAllByPage(start, size);
     }
 
