@@ -10,7 +10,7 @@ import java.util.List;
  */
 public interface PmsProductAttributeCategoryService {
 
-    List<PmsProductAttributeCategory> listAllCategory();
+    List<PmsProductAttributeCategory> listAllCategory(Integer page, Integer size);
 
     int createCategory(PmsProductAttributeCategory category);
 

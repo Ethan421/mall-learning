@@ -3,6 +3,8 @@ package com.macro.mall.tiny.mapper;
 import com.macro.mall.tiny.model.PmsProductCategory;
 import com.macro.mall.tiny.model.PmsProductCategoryExample;
 import java.util.List;
+
+import io.swagger.models.auth.In;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -24,6 +26,7 @@ public interface PmsProductCategoryMapper {
     List<PmsProductCategory> selectByExample(PmsProductCategoryExample example);
 
     PmsProductCategory selectByPrimaryKey(Long id);
+
 
     int updateByExampleSelective(@Param("record") PmsProductCategory record, @Param("example") PmsProductCategoryExample example);
 

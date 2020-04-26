@@ -193,4 +193,12 @@
       param_count = #{paramCount,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}
   </update>
+  <select id="selectAllByPage" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pms_product_attribute_category
+    <if test="start != null and size != null">
+      limit #{start}, #{size}
+    </if>
+  </select>
 </mapper>

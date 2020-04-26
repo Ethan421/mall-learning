@@ -3,6 +3,8 @@ package com.macro.mall.tiny.mapper;
 import com.macro.mall.tiny.model.PmsProductAttributeCategory;
 import com.macro.mall.tiny.model.PmsProductAttributeCategoryExample;
 import java.util.List;
+
+import com.macro.mall.tiny.model.PmsProductCategory;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
@@ -30,4 +32,7 @@ public interface PmsProductAttributeCategoryMapper {
     int updateByPrimaryKeySelective(PmsProductAttributeCategory record);
 
     int updateByPrimaryKey(PmsProductAttributeCategory record);
+
+    List<PmsProductAttributeCategory> selectAllByPage(Integer start, Integer size);
+
 }

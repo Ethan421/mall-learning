@@ -32,8 +32,8 @@ public class PmsProductAttributeCategoryController {
     @ApiOperation("获取所有商品类型分类列表")
     @GetMapping("/")
     @PreAuthorize("hasAnyAuthority('pms:productAttribute:read')")
-    public CommonResult<List<PmsProductAttributeCategory>> getCategoryList() {
-        return CommonResult.success(categoryService.listAllCategory());
+    public CommonResult<List<PmsProductAttributeCategory>> getCategoryList(Integer page, Integer size) {
+        return CommonResult.success(categoryService.listAllCategory(page, size));
     }
 
     @ApiOperation("/添加商品类型分类")
