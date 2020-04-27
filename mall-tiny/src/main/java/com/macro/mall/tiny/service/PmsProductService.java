@@ -10,9 +10,7 @@ import java.util.List;
  */
 public interface PmsProductService {
 
-    List<PmsProduct> listAllByPage(Integer page, Integer size);
-
-    List<PmsProduct> getByProduct(PmsProduct pmsProduct);
+    List<PmsProduct> getByProduct(PmsProduct pmsProduct, Integer page, Integer size);
 
     int updateById(Long id, PmsProduct pmsProduct);
 
