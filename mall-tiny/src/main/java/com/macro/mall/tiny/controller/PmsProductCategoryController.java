@@ -17,7 +17,7 @@ import java.util.List;
  * @date 2020/4/24 - 20:35
  */
 @RestController
-@RequestMapping("/product/category")
+@RequestMapping("/product-category")
 public class PmsProductCategoryController {
 
     private PmsProductCategoryService categoryService;
